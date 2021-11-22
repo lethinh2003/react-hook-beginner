@@ -1,0 +1,52 @@
+.todos-container {
+  width: 500px;
+  height: auto;
+  background-color: rgba(109, 39, 189, 0.822);
+  border-radius: 5px;
+  box-shadow: 2px 0px 2px 0px #fff;
+}
+.todos-form {
+  position: relative;
+}
+.todos-label {
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  top: 19px;
+  left: 14px;
+  background-color: white;
+  color: rgb(161, 90, 161);
+  font-size: 13px;
+
+  padding: 5px;
+}
+.todos-input {
+  outline: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(161, 90, 161);
+  font-size: 20px;
+  transition: all 0.25s ease;
+}
+.todos-input:focus {
+  border: 2px solid rgb(161, 90, 161);
+}
+.todos-form button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: violet;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0px 4px 5px 0px #fff;
+  outline: none;
+  border: 1px transparent;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.todos-form button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 5px 0px #fff;
+}
