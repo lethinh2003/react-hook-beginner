@@ -5,6 +5,7 @@ import Info from './views/Info';
 import React from 'react';
 import Blogs from './views/Blogs';
 import DetailBlogs from './views/DetailBlogs';
+import NotFound from './views/NotFound';
 import {
   BrowserRouter as Router,
   Switch,
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route path="/todos">
           <Todos />
+          </Route>
+          <Route path="*">
+          <NotFound />
           </Route>
         </Switch>
    
