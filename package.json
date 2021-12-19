@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://lethinh2003.github.io/react-hook-beginner/",
+  "homepage": "https://lethinh2003.github.io/react-hook-beginner",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",

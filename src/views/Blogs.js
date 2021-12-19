@@ -88,7 +88,9 @@ const Blogs = () => {
                     {item.title}
                     <br />
                     <button type="submit">
-                      <Link to={"/blogs/" + item.id}>Detail</Link>
+                      <Link to={"/react-hook-beginner/blogs/" + item.id}>
+                        Detail
+                      </Link>
                     </button>
                   </td>
                 </tr>

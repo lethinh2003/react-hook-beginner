@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 function Nav() {
   return (
     <div className="topnav">
-      <NavLink to="/" activeClassName="active" exact>
+      <NavLink to="/react-hook-beginner/" activeClassName="active" exact>
         Home
       </NavLink>
-      <NavLink to="/blogs" activeClassName="active">
+      <NavLink to="/react-hook-beginner/blogs" activeClassName="active">
         Blogs
       </NavLink>
-      <NavLink to="/todos" activeClassName="active">
+      <NavLink to="/react-hook-beginner/todos" activeClassName="active">
         Todos
       </NavLink>
     </div>

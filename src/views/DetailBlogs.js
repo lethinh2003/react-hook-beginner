@@ -10,7 +10,7 @@ const DetailBlogs = () => {
   let history = useHistory();
 
   function handleClick() {
-    history.push("/blogs");
+    history.push("/react-hook-beginner/blogs");
   }
 
   return (
