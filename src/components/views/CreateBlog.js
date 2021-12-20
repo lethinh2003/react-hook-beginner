@@ -1,4 +1,4 @@
-import "./styles/CreateBlog.css";
+import "../../assets/styles/CreateBlog.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
 const CreateBlog = (props) => {

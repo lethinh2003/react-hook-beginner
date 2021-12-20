@@ -1,4 +1,4 @@
-import "./styles/Info.css";
+import "../../assets/styles/Info.css";
 const Info = (props) => {
   const { info } = props;
 

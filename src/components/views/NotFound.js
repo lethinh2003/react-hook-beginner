@@ -1,4 +1,4 @@
-import "./styles/NotFound.css";
+import "../../assets/styles/NotFound.css";
 import { useHistory } from "react-router-dom";
 const NotFound = () => {
   const imgCat =

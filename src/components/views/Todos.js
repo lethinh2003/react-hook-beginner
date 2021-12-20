@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "../views/styles/Todos.css";
+import "../../assets/styles/Todos.css";
 import { useSelector, useDispatch } from "react-redux";
-import { addTodo, deleteTodo } from "../actions";
+import { addTodo, deleteTodo } from "../../redux/actions";
 
 const Todos = () => {
   const [title, setTitle] = useState("");

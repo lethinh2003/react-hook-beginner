@@ -1,11 +1,11 @@
-import "./App.css";
-import Nav from "./views/Nav";
-import Todos from "./views/Todos";
-import Info from "./views/Info";
 import React from "react";
-import Blogs from "./views/Blogs";
-import DetailBlogs from "./views/DetailBlogs";
-import NotFound from "./views/NotFound";
+import "./App.css";
+import Nav from "./components/views/Nav";
+import Todos from "./components/views/Todos";
+import Info from "./components/views/Info";
+import Blogs from "./components/views/Blogs";
+import DetailBlogs from "./components/views/DetailBlogs";
+import NotFound from "./components/views/NotFound";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -22,16 +22,16 @@ function App() {
 
         <header className="App-header">
           <Switch>
-            <Route path="/react-hook-beginner/" exact>
+            <Route path="/react_redux_todo/" exact>
               <Info info={info} />
             </Route>
-            <Route path="/react-hook-beginner/blogs" exact>
+            <Route path="/react_redux_todo/blogs" exact>
               <Blogs />
             </Route>
-            <Route path="/react-hook-beginner/blogs/:id" exact>
+            <Route path="/react_redux_todo/blogs/:id" exact>
               <DetailBlogs />
             </Route>
-            <Route path="/react-hook-beginner/todos">
+            <Route path="/react_redux_todo/todos">
               <Todos />
             </Route>
             <Route path="*">
